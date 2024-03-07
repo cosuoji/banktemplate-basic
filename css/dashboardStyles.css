@@ -1,0 +1,76 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.featuresSection, .logoutSection{
+    width: 80%;
+}
+
+.featuresSection, .userProfile, .logoutSection{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.featuresSection img, .logoutSection img{
+    padding-right: 10px;
+}
+
+.featuresSection p {
+    padding-right: 5px;
+}
+
+.featuresSection p:hover {
+    padding-right: 5px;
+    cursor: pointer;
+    color: red;
+    border-left: 4px solid red;
+    padding: 5px;
+}
+
+.logoutSection p:hover{
+    cursor:pointer;
+    color: red;
+    border-left: 4px solid red;
+    padding: 5px
+}
+
+
+.userIsHere{
+    color: red;
+    border-left: 4px solid red;
+    padding: 5px
+}
+
+
+body{
+    background-color: #F2F5FC;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information-Section{
+    display: flex;
+    margin-top:120px;
+}
+
+.information-Section div{
+    margin: 5px;
+}
+
+.checking, .savings{
+    background-color: white;
+    border-radius: 10%;
+    padding: 25px;
+    box-shadow: 3px 5px 11px 0px rgba(0, 0, 0, 0.57);
+}
+
+
+.checking img, .savings img{
+    cursor: pointer;
+}
